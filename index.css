@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0px auto;
+    max-width: 100%;
+    overflow-x: auto;
+}
+.container{
+    position: fixed;
+    background-color:#FBF8EF ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90px; 
+}
+
+
+/* .container-right{ 
+  padding-left: 5rem;
+} */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .hamburger {
+    display: none; /* Hide hamburger by default */
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}    
+  .nav-links li {
+    margin: 5px 0;
+  }
+  
+  .nav-links  a {
+    color: #2c4b4b;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+
+.container-right ul a{
+    text-decoration: none;
+    font-size:1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #006A67;
+    margin: 1.5rem; 
+   
+}
+
+button{
+    background-color:#006A67;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+}
+
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #006A67;
+    /* padding: 4rem; */
+   /* gap:13rem; */
+   
+    
+}
+.body .p1,h5,a{
+    color: white;
+    font-size: 1rem;
+
+}
+.p{
+    color: white;
+    font-size: 3rem;
+}  
+.body-1 > img{
+    display: flex;
+    /* padding: 3.5rem; */  
+}
+.p1{
+    font-size:2.3rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.arrow{
+    position: absolute;
+    bottom:-7em;
+    left: 8em;
+  
+}
+.center{
+   padding-top: 6rem;
+}
+.center > h2{
+    font-size: 2rem;
+    color: #006A67;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+.center-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    padding-bottom: 8rem;
+    
+
+}
+.project {
+    text-align: center;
+    background-color:#FBF8EF ;
+    padding: 6rem;
+}
+.project > h2{
+    font-size: 2.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #006A67;
+}
+.project > p{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem;
+    /* color: #006A67; */
+}
+.project-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+     
+}
+.cards{
+    border: 1.4px solid #006A67;
+
+}
+
+.cards > a {
+    color: #006A67;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.explore{
+    background-color: #FBF8EF;
+    text-align: center;
+    padding-top: 2.5em;
+    padding-bottom: 5.5em;
+    
+  }
+.explore > a {
+    color: #006A67;  
+}
+
+.Furniture{
+    display:flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Furniture1{
+    padding-top: 14em;
+    padding-left: 6.5em;
+    
+
+}
+.Furniture1 > a{
+    color: #006A67;
+    padding:0.5rem;
+    font-size: 1.5em;
+    
+}
+.Furniture1 > h2{
+    color: #006A67;
+    padding:0.5rem;
+    font-size: 2.5em;
+    
+}
+.Furniture1 > p{
+    padding:0.5rem;
+    font-size: 1rem;
+}
+
+.icon{
+    position: absolute;
+    top:170em;
+    left: 42em;
+}
+
+.talks{
+    background-color: #FBF8EF;
+    text-align: center;
+    padding-top: 6rem;
+}
+.talks > h2{
+    color: #006A67;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+.talks > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding: 1.5rem;
+
+}
+
+
+.twi-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    
+}
+.twi-img-1{
+    border: 1px solid #006A67;
+    padding: 1rem;
+
+}
+.twi-img-1 > p {
+    color: #006A67;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem;
+    
+}
+.twi-img-1 > a{
+    color: #006A67;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+   
+}
+.tips{
+    background-color: #FBF8EF;
+    padding: 4rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.tips > h2{
+    color: #006A67;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tips > p{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tips-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 1.2rem;
+}
+.tips-cards1{
+    border: 1.2px solid #006A67;
+    padding: 0.6rem;
+}
+.tips-cards1 > p{
+    color: #006A67;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem;
+}
+.tips-cards1 > a{
+    color: #006A67;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2rem;
+
+}
+.view{
+    background-color: #FBF8EF;
+    padding: 4rem;
+    text-align:center;
+    
+}
+.view > a{
+    color: #006A67;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.portals{
+    background-color: #FBF8EF;
+    
+}
+.portal-center{
+    color: #006A67;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem;
+}
+.portal{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding-bottom: 8rem;
+}
+.us-1 > h2{
+    color: #006A67;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.us-1 > p{
+    font-size: 0.9rem;
+    font-weight: bold;
+    
+}
+.us-2 {
+   padding: 3rem;
+    
+}
+.checkbox{
+    border: 1.2px solid #006A67;
+    padding: 1.2rem;
+    margin: 0.3rem;
+}
+.get{
+    background-color:  #006A67;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center;
+    text-decoration: none; 
+   padding: 1.2rem;
+}
+
+/* styles.css */
+  
+  footer {
+    background-color: #f5f7f5;
+    color: #2c4b4b;
+    padding: 30px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px 20px;
+    
+  }
+  .footer-section ul a{
+    color:#006A67;
+    text-decoration:none ;
+    font-size: 1rem;
+    
+  }
+
+  
+  .logo img {
+    width: 200px;
+    margin-bottom: 15px;
+  }
+  
+  .company-info h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .company-info p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .social-media p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+  }
+  
+  .social-media a img {
+    width: 20px;
+    margin: 0 5px;
+  }
+  
+  h4 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .copyright {
+    font-size: 0.8rem;
+    margin-top: 15px;
+  }
+
+
+ 
+
+@media only screen and (max-width: 400px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0px auto;
+        max-width: 100%;
+        overflow-x: auto;
+    }
+     .container{
+        display: flex;
+        flex-direction: column;
+        background-color: #FBF8EF;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        position: relative;
+        padding: 10px;
+     }  
+     .nav-links {
+        display: none; 
+        flex-direction: column;
+        width: 100%; 
+        position: absolute; 
+        top: 60px; 
+        left: 0;
+        background-color:#FBF8EF; 
+        z-index: 1; 
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: #006A67;
+        padding: 10px 15px;
+        font-size: 1.5rem;
+    }    
+    .hamburger {
+        display: flex; 
+    }
+    .nav-links.active {
+        display: flex; 
+    }
+    .twi-img-1{
+        width: 100%;
+    }
+    .arrow{
+        position:relative;
+        bottom:2em;
+        left: 18em; 
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+    .project > h2{
+        font-size: 1rem;
+    }
+    .center > h2{
+        font-size: 1rem;
+    }
+    .Furniture1 > h2{
+        font-size: 1rem;
+        position: relative;
+        bottom: 3rem;
+        left: 0.2rem;
+        
+    }
+    .Furniture1 > a{
+        font-size: 0.5rem;
+        position: relative;
+        bottom: 2rem;
+        left: 0.2rem;
+    }
+    .Furniture1 > p{
+        font-size: 0.6rem;
+        position: relative;
+        bottom: 2.8rem;
+        left: 0.2rem;
+    }
+    .Furniture{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .Furniture2 > img{
+        width: 700px;
+        /* height: 100%; */
+
+    }
+    .talks > h2{
+        font-size: 1.3rem;
+
+    }
+    .twi-img-1 ,p ,a{
+        font-size: 1rem;
+    }
+    .portal-center > h2{
+        font-size: 1.3rem;
+    }
+    .view > a{
+        font-size: 1.2rem;
+    }
+    .us-1 > h2{
+        font-size: 1rem;
+    }
+    .tips > h2{
+        font-size: 1.2rem;
+    }
+    .body-1{
+    display: flex;
+    position: relative;
+}
+.body .p1,h5,a{
+    color: white;
+    font-size: 0.5rem;
+
+}
+.p{
+    color: white;
+    font-size: 1.3rem;
+}  
+    button {
+        background-color: #006A67;
+        color: white;
+        padding: 1.5px;
+        font-size: 10px;
+        display:flex;
+        flex-direction: column;
+    }
+}
+ 
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #FBF8EF;
+    }
+    
+    .nav-links {
+        display: none; 
+        flex-direction: column;
+        width: 100%; 
+        position: absolute; 
+        top: 60px; 
+        left: 0;
+        background-color:#FBF8EF; 
+        z-index: 1; 
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: #006A67;
+        padding: 10px 15px;
+        font-size: 1.5rem;
+    }
+    .arrow{
+        position:relative;
+        bottom:2em;
+        left: 18em; 
+    }
+
+    .hamburger {
+        display: block; 
+    }
+
+    .nav-links.active {
+        display: flex; 
+    }
+
+    button {
+        background-color: #006A67;
+        color: white;
+        padding: 3px;
+        font-size: 1rem;
+    }
+    .body .p1,h5,a{
+        color: white;
+        font-size: 0.8rem;
+    
+    }
+    .p{
+        color: white;
+        font-size: 1.5rem;
+    }  
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .nav-links {
+        display: flex; 
+        flex-direction: row; 
+    }
+
+    .nav-links a {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    button {
+        background-color: #006A67;
+        color: white;
+        padding: 3px;
+        font-size: 1.1rem;
+    }
+} 
